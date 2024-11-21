@@ -1410,3 +1410,23 @@ select#input-sort {
 .contact-title {
   text-align: center;
 }
+
+.contact {
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-email {
+  display: inline-block;
+}
+
+.contact-name {
+  display: inline-block;
+}
+
+.contact-message {
+  margin-top: 20px;
+}
