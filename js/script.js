@@ -167,6 +167,23 @@
         },
       });
 
+      let cart = [];
+
+      $('.add-to-cart').click(function() {
+        const item = $(this).closest('.card').find('.card-title').text();
+        const price = $(this).closest('.card').find('.card-text').text();
+        cart.push({ item, price });
+        alert(item + ' added to cart');
+      });
+
+      $('#viewCart').click(function() {
+        $('#orderItems').empty();
+        cart.forEach(function(cartItem) {
+          $('#orderItems').append('<li class="list-group-item">' + cartItem.item + ' - ' + cartItem.price + '</li>');
+        });
+        $('#orderModal').modal('show');
+      });
+
     }); // End of a document ready
 
     window.addEventListener("load", function () {

@@ -304,6 +304,50 @@ h6 {
   background-color: var(--primary-color);
 }
 
+
+.btn.add-to-cart {
+  background-color: #f86d72;
+  border-color: #f79296;
+}
+
+.btn.add-to-cart:hover {
+  background-color: #f88c90;
+  border-color: #f7878b;
+}
+
+
+.contact-form .btn-primary {
+  background-color: #f86d72;
+  border-color: #f79296;
+}
+
+.contact-form .btn-primary:hover {
+  background-color: #f88c90;
+  border-color: #f7878b;
+}
+
+
+#viewCart {
+  background-color: #f86d72;
+  border-color: #f79296;
+}
+
+#viewCart:hover {
+  background-color: #f88c90;
+  border-color: #f7878b;
+}
+
+
+.btn.place-order {
+  background-color: #f86d72;
+  border-color: #f79296;
+}
+
+.btn.place-order:hover {
+  background-color: #f88c90;
+  border-color: #f7878b;
+}
+
 /*--------------------------------------------------------------
 /** 3. CONTENT ELEMENTS
 --------------------------------------------------------------*/
@@ -1331,6 +1375,10 @@ th {
 
 /* 4.9 Footer
 /*----------------------------------------------*/
+#footer {
+  background-color: #fafafa;
+  color: #000;
+}
 #footer .menu-list .menu-item a {
   font-size: 0.7619em;
   font-weight: 300;
@@ -1411,22 +1459,71 @@ select#input-sort {
   text-align: center;
 }
 
-.contact {
-  width: 200px;
-  height: 200px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh; 
 }
 
-.contact-email {
-  display: inline-block;
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.contact-name {
-  display: inline-block;
+.contact-form > div {
+  margin-bottom: 10px; 
 }
 
-.contact-message {
-  margin-top: 20px;
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 300px; 
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Custom styles for the order menu */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.card-text {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Custom styles for the modal and blurred background */
+.modal-backdrop.show {
+  opacity: 0.5;
+  background-color: #000;
+}
+
+.modal-content {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
