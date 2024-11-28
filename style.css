@@ -304,7 +304,6 @@ h6 {
   background-color: var(--primary-color);
 }
 
-
 .btn.add-to-cart {
   background-color: #f86d72;
   border-color: #f79296;
@@ -314,7 +313,6 @@ h6 {
   background-color: #f88c90;
   border-color: #f7878b;
 }
-
 
 .contact-form .btn-primary {
   background-color: #f86d72;
@@ -326,7 +324,6 @@ h6 {
   border-color: #f7878b;
 }
 
-
 #viewCart {
   background-color: #f86d72;
   border-color: #f79296;
@@ -336,7 +333,6 @@ h6 {
   background-color: #f88c90;
   border-color: #f7878b;
 }
-
 
 .btn.place-order {
   background-color: #f86d72;
@@ -1453,6 +1449,13 @@ select#input-sort {
 /* own css */
 .about-title {
   text-align: center;
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.about-paragraph {
+  text-align: center;
+  margin: 50px;
 }
 
 .contact-title {
@@ -1463,7 +1466,7 @@ select#input-sort {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh; 
+  height: 30vh;
 }
 
 .contact-form {
@@ -1473,13 +1476,13 @@ select#input-sort {
 }
 
 .contact-form > div {
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  max-width: 300px; 
+  max-width: 300px;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -1498,12 +1501,12 @@ select#input-sort {
 }
 
 .card-title {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
 }
 
 .card-text {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
 }
 
